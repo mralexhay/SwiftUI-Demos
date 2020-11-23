@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2FB90E256C600600BD5CD9 /* DepartmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FB90D256C600600BD5CD9 /* DepartmentListView.swift */; };
+		8C2FB911256C608600BD5CD9 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FB910256C608600BD5CD9 /* PeopleListView.swift */; };
+		8C2FB914256C616A00BD5CD9 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FB913256C616A00BD5CD9 /* SearchBarView.swift */; };
 		8CA247AF256BAE580006B376 /* SwiftUIDemosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247AE256BAE580006B376 /* SwiftUIDemosApp.swift */; };
-		8CA247B1256BAE580006B376 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247B0256BAE580006B376 /* ContentView.swift */; };
 		8CA247B3256BAE5B0006B376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA247B2256BAE5B0006B376 /* Assets.xcassets */; };
 		8CA247B6256BAE5B0006B376 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA247B5256BAE5B0006B376 /* Preview Assets.xcassets */; };
+		8CA247BF256BAE6F0006B376 /* TaggerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247BE256BAE6F0006B376 /* TaggerView.swift */; };
+		8CA247CA256BB6DD0006B376 /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247C9256BB6DD0006B376 /* ErrorMessageView.swift */; };
+		8CA247CF256BB7890006B376 /* TagEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247CE256BB7890006B376 /* TagEntryView.swift */; };
+		8CA247D2256BB8D60006B376 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247D1256BB8D60006B376 /* TagListView.swift */; };
+		8CA247D6256BB9300006B376 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247D5256BB9300006B376 /* TagView.swift */; };
+		8CA247DB256C1D260006B376 /* GroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247DA256C1D260006B376 /* GroupedListView.swift */; };
+		8CA247E0256C1D580006B376 /* DummyListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA247DF256C1D580006B376 /* DummyListData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C2FB90D256C600600BD5CD9 /* DepartmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListView.swift; sourceTree = "<group>"; };
+		8C2FB910256C608600BD5CD9 /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
+		8C2FB913256C616A00BD5CD9 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		8CA247AB256BAE580006B376 /* SwiftUIDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA247AE256BAE580006B376 /* SwiftUIDemosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemosApp.swift; sourceTree = "<group>"; };
-		8CA247B0256BAE580006B376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CA247B2256BAE5B0006B376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CA247B5256BAE5B0006B376 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CA247B7256BAE5B0006B376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA247BE256BAE6F0006B376 /* TaggerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaggerView.swift; sourceTree = "<group>"; };
+		8CA247C9256BB6DD0006B376 /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageView.swift; sourceTree = "<group>"; };
+		8CA247CE256BB7890006B376 /* TagEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagEntryView.swift; sourceTree = "<group>"; };
+		8CA247D1256BB8D60006B376 /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		8CA247D5256BB9300006B376 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		8CA247DA256C1D260006B376 /* GroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListView.swift; sourceTree = "<group>"; };
+		8CA247DF256C1D580006B376 /* DummyListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyListData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C2FB909256C2F0D00BD5CD9 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FB90D256C600600BD5CD9 /* DepartmentListView.swift */,
+				8C2FB910256C608600BD5CD9 /* PeopleListView.swift */,
+				8C2FB913256C616A00BD5CD9 /* SearchBarView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		8C2FB919256C677000BD5CD9 /* Example Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CA247D9256C1CB80006B376 /* FilterGroupedList */,
+				8CA247C7256BB6B60006B376 /* Tagger */,
+			);
+			path = "Example Views";
+			sourceTree = "<group>";
+		};
 		8CA247A2256BAE580006B376 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				8CA247AE256BAE580006B376 /* SwiftUIDemosApp.swift */,
-				8CA247B0256BAE580006B376 /* ContentView.swift */,
+				8C2FB919256C677000BD5CD9 /* Example Views */,
 				8CA247B2256BAE5B0006B376 /* Assets.xcassets */,
 				8CA247B7256BAE5B0006B376 /* Info.plist */,
 				8CA247B4256BAE5B0006B376 /* Preview Content */,
@@ -67,6 +104,36 @@
 				8CA247B5256BAE5B0006B376 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CA247C7256BB6B60006B376 /* Tagger */ = {
+			isa = PBXGroup;
+			children = (
+				8CA247BE256BAE6F0006B376 /* TaggerView.swift */,
+				8CA247C8256BB6BF0006B376 /* SubViews */,
+			);
+			path = Tagger;
+			sourceTree = "<group>";
+		};
+		8CA247C8256BB6BF0006B376 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				8CA247C9256BB6DD0006B376 /* ErrorMessageView.swift */,
+				8CA247CE256BB7890006B376 /* TagEntryView.swift */,
+				8CA247D1256BB8D60006B376 /* TagListView.swift */,
+				8CA247D5256BB9300006B376 /* TagView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		8CA247D9256C1CB80006B376 /* FilterGroupedList */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FB909256C2F0D00BD5CD9 /* SubViews */,
+				8CA247DF256C1D580006B376 /* DummyListData.swift */,
+				8CA247DA256C1D260006B376 /* GroupedListView.swift */,
+			);
+			path = FilterGroupedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CA247B1256BAE580006B376 /* ContentView.swift in Sources */,
+				8CA247CF256BB7890006B376 /* TagEntryView.swift in Sources */,
+				8C2FB90E256C600600BD5CD9 /* DepartmentListView.swift in Sources */,
+				8CA247DB256C1D260006B376 /* GroupedListView.swift in Sources */,
+				8CA247CA256BB6DD0006B376 /* ErrorMessageView.swift in Sources */,
+				8CA247D2256BB8D60006B376 /* TagListView.swift in Sources */,
+				8CA247BF256BAE6F0006B376 /* TaggerView.swift in Sources */,
+				8C2FB911256C608600BD5CD9 /* PeopleListView.swift in Sources */,
+				8C2FB914256C616A00BD5CD9 /* SearchBarView.swift in Sources */,
 				8CA247AF256BAE580006B376 /* SwiftUIDemosApp.swift in Sources */,
+				8CA247D6256BB9300006B376 /* TagView.swift in Sources */,
+				8CA247E0256C1D580006B376 /* DummyListData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
