@@ -24,10 +24,8 @@ struct IndexView: View {
 				NavigationLink(
 					destination: TaggerView(),
 					label: {
-						//HStack {
-							Image(systemName: "tag")
-							Text("Tagger")
-						//}
+						Image(systemName: "tag")
+						Text("Tagger")
 					}
 				)
 				NavigationLink(
@@ -35,6 +33,13 @@ struct IndexView: View {
 					label: {
 						Image(systemName: "rectangle.grid.1x2")
 						Text("Grouped List")
+					}
+				)
+				NavigationLink(
+					destination: ToastExampleView(),
+					label: {
+						Image(systemName: "rectangle.bottomthird.inset.fill")
+						Text("Toast")
 					}
 				)
 			}
